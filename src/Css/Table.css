@@ -1,0 +1,117 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+.log-click{
+    position: relative;
+}
+.log-form{
+    display: block;
+    left: -80px;
+}
+.menu {
+    display: block;
+    background-color: green;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    border: 1px solid white;
+    position: relative;
+}
+.pos{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.menu .last{
+    padding-top: 25%;
+    z-index: 0;
+}
+.menu .row .menu-button{
+    display: block;
+    background-color: white;
+    border-right: 1px solid black;
+}
+.menu .row .order-button{
+    display: block;
+    background-color: white;
+}
+.menu .row .showMenu{
+    width: 100%;
+    display: block;
+}
+.menu .row .showOrder{
+    width: 100%;
+    display: block;
+}
+.menu .row .showMenu ul{
+    width: 100%;
+    background-color: white;
+}
+.menu .row .showMenu ul li{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+.menu .row .showMenu ul li:hover{
+    background-color: #f5576c;
+    color:rgb(0, 225, 255);
+}
+.menu .row .showOrder ul{
+    width: 100%;
+    background-color: white;
+}
+.menu .row .showOrder ul li{
+    width: 100%;
+    list-style: none;
+}
+.menu .row .showOrder ul li .right{
+    width: 30%;
+}
+.menu .row .showOrder ul li .note{
+    margin-top: 1%;
+}
+.formNotification{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.notification{
+    position: absolute;
+    z-index: 3;
+    width: 5%;
+    border: 2px solid black;
+}
+.qty-del input:first-child{
+    width: 70%;
+}
+.qty-del input:last-child{
+    width: 30%;
+}
+.showNotifications{
+    position: absolute;
+    z-index: 2;
+    margin-left: 3%;
+}
+.form-change-order{
+    color: red;
+    font-style: oblique;
+}
+.dashed {
+    border: 1px dashed #f5576c;
+}
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
